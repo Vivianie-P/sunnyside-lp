@@ -153,3 +153,9 @@ span {
 		background-color: hsl(198, 100%, 68%);
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.desktop-nav {
+		display: none;
+	}
+}

@@ -13,6 +13,19 @@ const Navbar = () => {
 		<>
 			<div className="navbar">
 				<h2 className="nav-bar-title">sunnyside</h2>
+				<nav className="desktop-nav">
+					<ul className="nav-menu-items">
+						{NavbarData.map((item, index) => {
+							return (
+								<li key={index} className={item.cName}>
+									<Link to={item.path}>
+										<span>{item.title}</span>
+									</Link>
+								</li>
+							);
+						})}
+					</ul>
+				</nav>
 				<Link to="#" className="menu-bars">
 					<FontAwesomeIcon icon={faBars} onClick={showSidebar} />
 				</Link>

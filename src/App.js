@@ -48,14 +48,17 @@ function App() {
 					alt=""
 				/>
 				<div className="first-ppg">
-					<h1 className="ppg-title">Transform your brand</h1>
+					<h1 className="ppg-title">
+						Transform your <br></br> brand
+					</h1>
 					<p className="ppg">
 						We are a full-service creative agency specializing in helping brands grow
 						fast. Engage your clients through compelling visuals that do most of the
 						marketing for you.
 					</p>
-					<h2 className="ppg-footer">Learn more</h2>
-					<div className="underline-1"></div>
+					<div className="ppg-footer-container">
+						<h2 className="ppg-footer">Learn more</h2>
+					</div>
 				</div>
 				<img
 					className="pink-cup-img"
@@ -71,12 +74,13 @@ function App() {
 					{" "}
 					<h1 className="ppg-title"> Stand out to the right audience</h1>{" "}
 					<p className="ppg">
-						Using a collaborative formula of designers, researchers, photographers,
+						Using a collaborative formula of designers, researchers,photographers,
 						videographers, and copywriters, we’ll build and extend your brand in
 						digital places.
 					</p>
-					<h2 className="ppg-footer-pink">Learn more</h2>
-					<div className="underline-2"></div>
+					<div className="ppg-footer-container">
+						<h2 className="ppg-footer-pink">Learn more</h2>
+					</div>
 				</div>
 				<div className="graphic-design-ppg">
 					<img
@@ -163,7 +167,7 @@ function App() {
 					</div>
 				</div>
 				<div className="quad-images">
-					<div className="quad-first-images">
+					<div className="quad-img-1">
 						<img
 							className="milkbottles-img"
 							src={require("./assets/images/desktop/image-gallery-milkbottles.jpg")}
@@ -174,6 +178,20 @@ function App() {
 							src={require("./assets/images/mobile/image-gallery-milkbottles.jpg")}
 							alt=""
 						/>
+					</div>
+					<div className="quad-img-2">
+						<img
+							className="plated-orange-img"
+							src={require("./assets/images/desktop/image-gallery-orange.jpg")}
+							alt=""
+						/>
+						<img
+							className="mobile-plated-orange-img"
+							src={require("./assets/images/mobile/image-gallery-orange.jpg")}
+							alt=""
+						/>
+					</div>
+					<div className="quad-img-3">
 						<img
 							className="cone-img"
 							src={require("./assets/images/desktop/image-gallery-cone.jpg")}
@@ -185,17 +203,7 @@ function App() {
 							alt=""
 						/>
 					</div>
-					<div className="quad-second-images">
-						<img
-							className="plated-orange-img"
-							src={require("./assets/images/desktop/image-gallery-orange.jpg")}
-							alt=""
-						/>
-						<img
-							className="mobile-plated-orange-img"
-							src={require("./assets/images/mobile/image-gallery-orange.jpg")}
-							alt=""
-						/>
+					<div className="quad-img-4">
 						<img
 							className="sugarcubes-img"
 							src={require("./assets/images/desktop/image-gallery-sugarcubes.jpg")}
