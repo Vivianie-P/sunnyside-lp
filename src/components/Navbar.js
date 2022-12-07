@@ -50,5 +50,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// about, services, projects, contact
