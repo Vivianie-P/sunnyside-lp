@@ -1,6 +1,6 @@
+## Sunnyside Landing Page
+
 ![sunnyside-lp](https://user-images.githubusercontent.com/81881081/208990428-bd60b0aa-a158-48d2-96a8-99cce20aacff.jpg)
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
