@@ -1,4 +1,4 @@
-## Sunnyside Landing Page
+# Sunnyside Landing Page
 
 ![sunnyside-lp](https://user-images.githubusercontent.com/81881081/208990428-bd60b0aa-a158-48d2-96a8-99cce20aacff.jpg)
 
