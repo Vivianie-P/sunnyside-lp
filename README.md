@@ -1,4 +1,5 @@
-[sunnyside-lp](https://user-images.githubusercontent.com/81881081/208990248-2880791a-a21c-4e44-9a2b-2b742c210835.jpg)
+![sunnyside-lp](https://user-images.githubusercontent.com/81881081/208990428-bd60b0aa-a158-48d2-96a8-99cce20aacff.jpg)
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
